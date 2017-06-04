@@ -1,0 +1,62 @@
+body
+{
+    background-color: lightblue;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+/* DIV in index.php */
+#form
+{
+    border-style: ridge;
+    border-color: beige;
+    background-color: lightcyan;
+    width: 800;
+    height: 350;
+  
+    
+}
+
+
+#Tim2
+{
+    width: 500;
+    height: 350;
+    float: right;
+}
+
+/* Form in index.php */
+#formInput
+{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: chocolate;
+    float: left;
+}
+
+/* Form text in index.php */
+#order
+{
+    text-align: left;
+    font-family: cursive;
+    font-size: 25px;
+    font-style: bold, italic;
+    color: chocolate;
+}
+
+#Tim
+{
+    width: 600;
+    height: 300;
+    position: relative;
+    left: 30%;
+    
+}
+h1
+{
+    text-align: center;
+    color: chocolate;
+    font-family: cursive;
+    font-style: italic;
+}
