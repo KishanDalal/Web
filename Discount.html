@@ -1,0 +1,26 @@
+<html>
+<head> </head>
+
+    <body>
+        <form>
+            Enter a number: <input type="text" id="originalPrice" required>
+            <input type="button" id="Calculate" value="Calculate">
+        </form>
+    </body>
+    <script>
+        var originalPrice = document.getElementById("originalPrice").value;
+        var discountedPercent = 50; 
+        
+        document.getElementById("Calculate").onclick = function()
+            {
+                var originalPrice = document.getElementById("originalPrice").value;
+                var discountedPercent = 50; 
+                var result = originalPrice * (discountPercent/100); 
+                var result1= originalPrice - result; 
+                return result1;
+            };
+            
+            
+            
+    </script>
+</html>
