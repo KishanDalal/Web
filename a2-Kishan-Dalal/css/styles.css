@@ -1,0 +1,80 @@
+/* Entire file common css*/
+h1 
+{
+    text-align: center;
+}
+
+body
+{
+    color: green;
+    background-color: burlywood; 
+}    
+
+p
+{
+    display: flex;
+    font-size: 30px;
+    color: purple;
+    border-style: dotted;
+    border-color: rosybrown;
+    border-width: thick;
+    
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+/* textbox area */
+#input
+{
+    background-color: lightcyan;
+    width: 200px; 
+    height: 30px; 
+}
+
+#infoEntered
+{
+    position: relative;
+    left: 40%;
+    top: 25%;
+}
+
+label
+{
+    font-size: 25;
+}
+
+/* Button */
+input[type="button"]:hover
+{
+    background-color: blue;
+}
+
+input[type="button"] 
+{   
+    display: inline-block;
+    background-color: cadetblue;
+    border-color: black;
+    border-width: thin;
+    color: greenyellow;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    box-shadow: 10px 10px 5px; 
+    
+    /* Spacing */
+    word-spacing: 1px;
+    letter-spacing: 3; 
+    
+    /* Margin Alignment */
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+
+
+
