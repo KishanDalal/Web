@@ -1,0 +1,46 @@
+body
+{
+     background: linear-gradient(-90deg, aliceblue, lightblue);
+}
+
+input
+{
+    width: 5%;
+    padding: 5px 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid gray; 
+}
+
+label
+{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-style: italic;
+    color: royalblue;
+}
+
+h1
+{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: royalblue;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+    letter-spacing: 2px;
+    
+}
+[value]
+{
+    background: grey;
+}
+
+input[type="number"]
+{
+  background-color: bisque; 
+    font-size: 20px;
+    color: peru;
+}
