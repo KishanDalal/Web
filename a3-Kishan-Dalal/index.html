@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 3, Kishan</title>
+        <link rel="stylesheet" type="text/css" href="css/css.css">
+        <h1>REGISTERATION</h1>
+        <hr>
+    </head>
+
+    <body>
+    
+        <form id="myForm" method="post" action="thank-you.html">
+        <!--userName, blurs function executeValid() -->
+        Username: <input type="text" id="userName" onblur="executeVaild()" name="userName">
+        <span id="spanUserName" required></span>
+        <br>
+        
+        <!--password, blurs function executeValid(). confirmPassword, blurs function passwordMatch()-->
+        Password: </span><input type="password" id="password" name="password" onblur="executeVaild()" required>
+        <span id="spanPassword"></span>
+        <br>
+        
+        <input type="range" id="range" name="range"><br>
+        Confirm Password: <input type="password" id="confirmPassword" name="confirmPassword" onblur="passwordMatch()" required>
+        <span id="spanConfirmPassword"></span>
+        <br>
+        
+        <!--Gender -->
+        Gender: 
+        Male<input type="radio" value="male" id="male" name="gender" required>
+        Female<input type="radio" value="female" id="female" name="gender" required>
+        Other<input type="radio" value="other" id="other" name="gender" required>
+        <span id="spanGender"></span>
+        <br>    
+        
+        <!-- emailID, blurs function emailValid(). contactNumber, blurs function contactNumberValid() -->
+        Email Id: <input type="text" id="emailID" onblur="emailValid()" name="emailID" required>
+        <span id="spanEmailID"></span>
+        <br>
+         
+        Contact Number: <input type="text" name="contactNumber" id="contactNumber" onblur="contactNumberValid()" required>
+        <span id="spanContactNumber"></span>
+        <br>
+        
+        <input type="button" value="Reset" id="clear" onclick="myReset()">
+        <input type="submit" value="Submit" id="submit">
+        
+            
+        </form>
+    <!-- Extra stuff -->
+    <img id="banner" src="Pic/SheridanBanner.jpg">
+    <p id="indexParagrah">
+        Student of <a href="https://www.sheridancollege.ca/">Sherdian College</a> his website is created by Kishan Dalal. The purpose of this website is for Assignment three. Code Away
+    </p>
+        <script src="scripts/scripts.js"></script>
+    </body>
+
+</html>
